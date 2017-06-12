@@ -9,7 +9,8 @@
     "proof:latest": "node proofScripts.js latest _posts/*.md",
     "proof:changed": "node proofScripts.js git-index-and-uncommitted _posts/*.md",
     "proof:index": "node proofScripts.js git-index _posts/*.md",
-    "proof:uncommitted": "node proofScripts.js git-uncommitted _posts/*.md"
+    "proof:uncommitted": "node proofScripts.js git-uncommitted _posts/*.md",
+    "local-install": "node js/dotenv.js"
   },
   "keywords": [
     "rimdev",
@@ -23,9 +24,11 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "markdown-proofing": "latest",
+    "npm-run": "^4.1.2",
     "shelljs": "^0.7.0"
   },
   "dependencies": {
-    "content-search-component": "^1.0.0"
+    "content-search-component": "^1.0.0",
+    "dotenv": "^4.0.0"
   }
 }

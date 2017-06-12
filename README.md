@@ -9,7 +9,12 @@ Photography by JJ Walck
 3. `cd` into repository
 4. `gem install bundler`
 5. `bundle install`
-6. To run: `bundle exec jekyll serve` with optional `--incremental` flag
+6. For a local install you'll need to create a `.env` file in the `js` directory
+7. Create a key `MYGET_TOKEN` and copy a read-only token from myget.org
+8. Run `npm run local-install`
+This will download our `content-search-component` from MyGet
+
+To run: `bundle exec jekyll serve` with optional `--incremental` flag
 
 > As of Jekyll 3.3, `_config.local.yml` is [no longer needed](https://github.com/blog/2277-what-s-new-in-github-pages-with-jekyll-3-3).
 

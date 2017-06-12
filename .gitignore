@@ -7,3 +7,4 @@ GemFile.lock
 .DS_Store
 .vscode
 debug.log
+js/.env
